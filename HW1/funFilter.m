@@ -1,3 +1,13 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% William Christie
+% SID: 810915676
+% CSCI 4830/5722
+% Instructor: Fleming
+% Homework 1: funFilter
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 function [ outImg ] = funFilter(inImg, swirl)
     % will implement swirl filter on chosen image. 
     % allow user to select amount of swirl to place on the image. 
