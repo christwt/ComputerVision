@@ -1,3 +1,13 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% William Christie
+% SID: 810915676
+% CSCI 4830/5722
+% Instructor: Fleming
+% Homework 1: padImg
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 function [paddedImg] = padImg2(inImg, kernel_size)
     % tested using padarray first
     % paddedImg = padarray(inImg, [p p], 0, 'both');
