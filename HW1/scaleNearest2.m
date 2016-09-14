@@ -1,3 +1,13 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% William Christie
+% SID: 810915676
+% CSCI 4830/5722
+% Instructor: Fleming
+% Homework 1: scaleNearest
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 function [ outImg ] = scaleNearest2 ( inImg, factor1, factor2)
 
    % display error is user inputs negative factor. 
