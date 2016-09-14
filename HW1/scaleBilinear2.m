@@ -1,3 +1,13 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% William Christie
+% SID: 810915676
+% CSCI 4830/5722
+% Instructor: Fleming
+% Homework 1: scaleBilinear
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 function [ outImg ] = scaleBilinear2( inImg, factor)
     % display error for any negative factor input.
    while factor < 0
