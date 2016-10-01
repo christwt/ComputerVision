@@ -5,7 +5,7 @@ Implement an image stitcher that uses image warping and homographies to automati
 ## Submission Contents:
 1. vision_hwk2.m
       
-    Driver program to create a menu driven application. Users may select from a pool of images and stitch them together. Users may also view an example of warping an image into a "frame" of another image. In this case an image of my dog Kobalt is warped into a billboard frame. Users may modify this code to warp other images into the billboard.
+    Driver program to create a menu driven application. Users may select from a pool of images and stitch them together. Users may also view an example of warping an image into a "frame" of another image. In this case an image of my dog Kobalt is warped into a billboard frame. Users select the frame of the billboard in which to warp the source image. Note that different sequences of corner clicks will rotate the source image in different ways. Users may modify this code to warp other images into the billboard. 
 
 2. detPoints.m
 
