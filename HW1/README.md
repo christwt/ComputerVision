@@ -1,9 +1,6 @@
 ## Early Vision	– One	Image
 
-Create	a	simple	image-processing	program,	with	
-functions	similar	to	those	found	in	Adobe	Photoshop	or	The	Gimp.	The	functions	you	
-implement	for	this	assignment	will	take an	input	image,	process	the	image,	and	
-produce	an	output	image. No functions from the Image Processing Toolbox were allowed in this assignment.
+Create a simple image-processing program,	with functions similar	to those found in	Adobe	Photoshop or The Gimp. The functions you implement for this assignment will take an input image, process the image, and produce an output image. No functions from the Image Processing Toolbox were allowed in this assignment.
 
 ## Submission Contents:
 1. vision_hwk1.m
