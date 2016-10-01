@@ -3,6 +3,10 @@ CSCI 5722/4830
 
 Special Topics course at University of Colorado Boulder. Accumulated programming assignments.
 
+## Contents:
+1. HW1: Early Vision - One Image
+2. HW2: Image Mosaicing
+
 ## To Run Programs: 
 1. Download matlab
 2. Ensure all files in submission are in the same matlab directory. 
