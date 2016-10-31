@@ -6,6 +6,8 @@ Special Topics course at University of Colorado Boulder. Accumulated programming
 ## Contents:
 * HW1: Early Vision - One Image
 * HW2: Image Mosaicing
+* HW3: Stereo Segmentation
+* HW4: Dynamic Programming
 
 ## To Run Programs: 
 1. Download matlab
