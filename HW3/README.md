@@ -1,46 +1,32 @@
-mage Mosaics
+## Stereo Vision With Dynamic Programming
 
-Implement an image stitcher that uses image warping and homographies to automatically create an image mosaic.  Assignment focused on the case where we had 2 images to stitch together. Practice with manipulating homogenous coordinates, computing homography matrices, and performing image warps.  Corresponding points collected with mouse clicks.
+Learn Stereo Segmentation techniques by implementing functions from a stereo pipeline example from matlab. 
 
 ## Submission Contents:
-1. vision_hwk2.m
+1. DepthEstimationFromStereoVideoExample.m
       
-    Driver program to create a menu driven application. Users may select from a pool of images and stitch them together. Users may also view an example of warping an image into a "frame" of another image. In this case an image of my dog Kobalt is warped into a billboard frame. Users select the frame of the billboard in which to warp the source image. Note that different sequences of corner clicks will rotate the source image in different ways. Users may modify this code to warp other images into the billboard. 
+   Example program provided by matlab and adjusted to use my own disparity map functions and other functions as described below. 
 
-2. detPoints.m
+2. calcDisparity.m
 
-    Function by which user selects 4 pairs of correspondence points from the 2 images to be mosaiced.  
+    Function that takes as inputs left and right rectified grayscale stereo images and creates the disparity map between the 2 images using user specified window sizes and SSD calculations.  
 
-3. computeHomography.m
+3. calcNCC3.m
 
-     Function to build the homography matrix based on the 4 set of correspondence points. Uses SVD to solve coefficient matrix to obtain homography.
+     Function that takes as inputs left and right rectified grayscale stereo images and creates the disparity map between the 2 images using user specified window sizes and NCC calculations.
 
-4. homographyTransformR.m, homographyTransform.m
+4. consistencyCheck.m
 
-    Functions for checking that calculated homography warps corresponding points in images correctly.
+    Function that performs LR consistency check between LR and RL disparity maps in order to determine occluded pixels and generate an outliers map. 
 
-5. plotHomographyPoints.m
-
-    Function which uses homographyTransformR/homographyTransform.m to plot corresponding points in the images for visual confirmation that the homography matrix warps corresponding points correctly. 
-
-6. warpImg.m
-
-    Simplistic function to warp a source image into the plane of a refernce image based on a homography matrix H. Places the image in a bounding box of the size of the image. 
-
-7. warpImg3.m
-
-    Function to warp a source image into the plane of a reference image based on a homography matrix H. This function calculates its bounding box based on forward mapping of the source image corners with the homography matrix.
-
-8. warpImage.m
-
-    Function to warp a source image into the plane of a reference image based on a given homography matrix, given points to establish a bounding box, and a translation matrix to translate the warped image to its proper place in the mosaic.
-
-9. mosaicImg.m
-
-    Function which utilizes warpImage.m to warp a source image into the plane of a reference image and stitch the two images together. This method also calculates a bounding box based on the corners of the 2 images and utilizes the max() function to somewhat smooth the boundary between the stitched images.
+5. reconstruct.m
+      
+    Function to take in a disparity map and utilizes given camera parameters to return a matrix of depth values for each pixel in the left image.
+    
+6. .fig files show individual results obtained from utilizing the functions above as compared with functions provided by the stereo pipeline example. 
 
 ## To run:
 1. Ensure all files are in the same folder in the matlab directory.
 
-2. Run vision_hwk2.m to begin application.
+2. Run DepthEstimationFromStereoVideoExample.m to begin application.
 
