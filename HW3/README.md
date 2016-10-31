@@ -1,4 +1,4 @@
-## Stereo Vision With Dynamic Programming
+## Stereo Vision and Segmentation
 
 Learn Stereo Segmentation techniques by implementing functions from a stereo pipeline example from matlab. 
 
