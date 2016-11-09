@@ -23,7 +23,11 @@ Learn Stereo Segmentation techniques using Dynamic Programming.
       
     Function that utilizes the direction table to backtrack and determine the disparity vector for the 2 epipolar scanlines.
     
-6. .fig files show individual disparity maps obtained using the functions above of the provided images. 
+6. displayDMap.m
+     
+    Function to display the disparity map, coloring occluded pixels red.
+    
+7. .fig files show individual disparity maps obtained using the functions above of the provided images. 
 
 ## To run:
 1. Ensure all files are in the same folder in the matlab directory.
