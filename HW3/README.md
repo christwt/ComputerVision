@@ -9,11 +9,11 @@ Learn Stereo Segmentation techniques by implementing functions from a stereo pip
 
 2. calcDisparity.m
 
-    Function that takes as inputs left and right rectified grayscale stereo images and creates the disparity map between the 2 images using user specified window sizes and SSD calculations.  
+    Function that takes as inputs left and right rectified grayscale stereo images and creates the disparity map between the 2 images using window sizes 1, 3, 5 and SSD calculations.  
 
 3. calcNCC3.m
 
-     Function that takes as inputs left and right rectified grayscale stereo images and creates the disparity map between the 2 images using user specified window sizes and NCC calculations.
+     Function that takes as inputs left and right rectified grayscale stereo images and creates the disparity map between the 2 images using window sizes 3, 5, 7 and NCC calculations.
 
 4. consistencyCheck.m
 
