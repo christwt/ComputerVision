@@ -25,7 +25,7 @@ Menu based application that performs frontal face detection using the Viola Jone
 
 11. /suspectReport - folder containing sameple suspect reports and generated object files.
 
-12. *.jpg - sample images used to generate suspect reports. 
+12. .jpg - sample images used to generate suspect reports. 
 
 ### To run Suspect Report Generator:
 1. Place ProjectFiles folder into MATLAB, ensure any other desired images/videos are in the same folder. 
@@ -33,6 +33,8 @@ Menu based application that performs frontal face detection using the Viola Jone
 2. Open ProjectFiles and navigate to userInterface.m
 
 3. Click Run or type userInferface(); in command window.
+
+4. If further help is required view usage statments within command window at each step.
 
 ### To run testRecog:
 1. Open testFacialRecog.m
