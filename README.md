@@ -8,6 +8,7 @@ Special Topics course at University of Colorado Boulder. Accumulated programming
 * HW2: Image Mosaicing
 * HW3: Stereo Segmentation
 * HW4: Dynamic Programming
+* Final Project: Suspect Report Generator
 
 ## To Run Programs: 
 1. Download matlab
