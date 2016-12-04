@@ -23,7 +23,7 @@ Menu based application that performs frontal face detection using the Viola Jone
 
 10. /other - folder containing old/unused code. 
 
-11. *.pdf - sample generated suspect reports
+11. /suspectReport - folder containing sameple suspect reports and generated object files.
 
 12. *.jpg - sample images used to generate suspect reports. 
 

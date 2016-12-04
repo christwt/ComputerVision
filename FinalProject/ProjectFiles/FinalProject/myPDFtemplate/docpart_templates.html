@@ -1,0 +1,70 @@
+<!--
+% %%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% William Christie
+% SID: 810915676
+% CSCI 4830/5722
+% Instructor: Fleming
+% Final Project: docpart_templates.m
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+HTML formatting structure for PDF. Used in generateReport.m to fill PDF and
+structure overall page. 
+-->
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Document Part Templates</title>
+    <link rel="StyleSheet" href="./stylesheets/root.css" type="text/css" />
+</head>
+<body>
+    <dplibrary>
+        <dptemplate name="Dept Content">
+            <h1 class="Department Info">Dept Info:</h1>
+            <hole id="deptNa" default-style-name="deptNa" />
+            <span> </span>
+            <hole id="deptA" default-style-name="deptA" />
+            <span> </span>
+            <hole id="deptNu" default-style-name="deptNu" />
+            <span> </span>
+            <hole id="deptS" default-style-name="deptS" />
+            <span> </span>
+        </dptemplate>
+        <dptemplate name="Suspect Image">
+            <p>Suspect Image:
+            <hole id="suspImage" default-style-name="suspImage" />
+            <span> </span>
+            </p>
+        </dptemplate>
+        <dptemplate name="Suspect Info">
+            <table border = "1" width="100%" bordercolor="blue" bgcolors="gray">
+			<thead>
+				<tr>
+					<th colspan="2">Suspect Identification Information</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>Suspect ID</th>
+					<td><hole id="SID"/><span> </span></td>
+				</tr>
+				<tr>
+					<th>Suspect Number</th>
+					<td><hole id="SID"/><span> </span></td>
+				</tr>
+				<tr>
+					<th>Investigation Number</th>
+                    <td><hole id="IN"/><span> </span></td>
+				</tr>
+				<tr>
+					<th>Investigation Status</th>
+                    <td><hole id="IS"/><span> </span></td>
+				</tr>
+			</tbody>
+            </table>
+        </dptemplate>
+    </dplibrary>
+</body>
+</html>

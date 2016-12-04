@@ -1,0 +1,26 @@
+% %%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% William Christie
+% SID: 810915676
+% CSCI 4830/5722
+% Instructor: Fleming
+% Final Project: usage2.m
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+function usage2()
+% This function outputs current application process and description of next
+% steps.
+
+    usageNote = ['Running Face Detection Using Viola Jones Algorithm...\n'...
+                 '\n\t1. System will identify and place bounding boxes\n\t   around all' ...
+                 ' image frame objects with features\n\t   closely representing' ...
+                 'features represented in\n\t   the frontal view of a human face.' ...
+                 '\n\t2. Use the Annotated Figure to select the indexed\n\t   bounding box' ...
+                 ' containing the identified face of\n\t   choice. This face will be' ...
+                 ' extracted from the\n\t   image frame and placed into a generated user report.\n',...
+                 '\t3. Should the system fail to recognize any facial\n\t   features, or',...
+                 ' mistakenly identifies a feature that is\n\t   not a face, you may input 0.\n\n'];
+             
+    fprintf(usageNote);
+end
